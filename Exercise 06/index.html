@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello, World!</title>
+
+    <!--
+    ODPOWIEDŹ NA PYTANIA Z PIERWSZEJ CZĘŚCI ZADANIA SZÓSTEGO
+
+    Kolejność priorytetów styli:
+    - Najwyższy priorytet mają style zapisane "inline" w tagu.
+    - Następnie style zawarte wewnętrznie (w sekcji "head") i zewnętrzne (w pliku css).
+    - Najniższy priorytet mają ustawienia domyślne przeglądarki.
+
+    Kolejność priorytetów styli zapisanych wewnętrznie (w sekcji "head") i zewnętrznie
+    (w pliku css).
+    O priorytecie decyduje wartość atrybutu danego selektora zastosowana w (kolejno)
+    ostatnim użytym stylu.
+    Np.
+    Gdyby tag "style" został użyty w sekcji "head" przed odnośnikiem do dokumentu CSS,
+    tło "body" byłoby niebieskie.
+    -->
+
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <style>
+      body  {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body style="background-color: green">
+    <p id="p1">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p id="p2">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque venenatis eget turpis dignissim rhoncus.
+    Nam ornare mauris sit amet lacus ultricies molestie.
+    Sed mi elit, fringilla nec magna et, consectetur porta urna.
+    Pellentesque vehicula ac massa non efficitur.
+    Maecenas orci lacus, aliquam tempor suscipit quis, venenatis ac mi.
+    Phasellus semper luctus efficitur. Praesent non elementum lacus.
+    Aliquam venenatis, metus nec accumsan porttitor, risus purus mollis ante,
+    vitae sagittis sapien nisi sed orci. Praesent eget pellentesque tellus.
+    Maecenas id sagittis libero, et porttitor velit.
+    Phasellus porta eros sed neque facilisis varius.
+    Quisque sed molestie magna. Cras varius nunc ut justo mollis vestibulum.
+  </p>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  </body>
+</html>

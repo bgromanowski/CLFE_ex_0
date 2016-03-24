@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello, World!</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!--
+  ODPOWIEDŹ NA PYTANIA Z PIERWSZEJ I DRUGIEJ CZĘŚCI ĆWICZENIA 8
+
+  Ustawiając podane atrybuty w arkuszu css dla linku, otwierając
+  dokument HTML w przeglądarce nie zobaczymy niczego ponad wprowadzonego
+  tekst linku (ktrego wygląd będzie odpowiadał atrybutom w arkuszu css).
+  Dzieje się tak, ponieważ link jest elementem liniowym, zatem zajmuje
+  "tylko tyle miejsca ile wymaga jego zawartość".
+  W przypadku paragrafu, będącego elementem blokowym ("zajmującym całą
+  dostępną szerokość"). W tym wypadku w ustawieniach stylu paragraf
+  posiada zdefiniowaną szerokość. Jego wysokość natomiast definiuje jego
+  zawartość.
+
+  W obydwu elementach nie pojawia się ich "granica". Wynika to z tego,
+  że obydwa te elementy oprócz koloru "granicy" nie posiadają zdefiniowanej
+  "szerokości" oraz stylu "granicy".
+  -->
+
+  <a href="https://zaufanatrzeciastrona.pl/">link</a>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Curabitur nec consectetur ligula. Sed dapibus ligula turpis.
+    Sed ac bibendum ante. Maecenas odio ante, convallis nec nulla at,
+    mollis volutpat urna. Etiam pellentesque orci sed posuere convallis.
+    Maecenas placerat erat at ligula congue, non tempus dui malesuada.
+    Curabitur vulputate placerat justo.
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Name of element</th>
+        <th scope="col">Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>h1, h2, h3</td>
+        <td>block</td>
+      </tr>
+      <tr>
+        <td>div</td>
+        <td>block</td>
+      </tr>
+      <tr>
+        <td>span</td>
+        <td>inline</td>
+      </tr>
+      <tr>
+        <td>em, strong, u</td>
+        <td>inline</td>
+      </tr>
+      <tr>
+        <td>ul and ol</td>
+        <td>block</td>
+      </tr>
+      <tr>
+        <td>table</td>
+        <td>block</td>
+      </tr>
+      <tr>
+        <td>img</td>
+        <td>inline</td>
+      </tr>
+      <tr>
+        <td>iframe</td>
+        <td>inline</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

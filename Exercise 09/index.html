@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello, World!</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <!--FORMULARZ #1-->
+  <form id="form1">
+    <label>Your Name:</label><br>
+    <input class="user_data" type="text" name="user_name" placeholder="Your name"/><br>
+    <label>Your E-mail Address:</label><br>
+    <input class="user_data" type="text" name="user_email" placeholder="Your e-mail"/><br>
+    <label>Your message:</label><br>
+    <textarea id="message_box" class="user_data" type="text" name="user_message" placeholder="Please describe your question or comment"></textarea><br>
+    <br>
+    <input id="send" class="user_data" type="submit" value="Send"/>
+  </form>
+
+  <!--FORMULARZ #2-->
+  <form>
+    <h1>Run your inteligent robo-car</h1>
+
+    <h2>Select Country:</h2>
+    <label class="input_label">Poland:
+      <input type="checkbox" name="poland" value="Poland" checked/>
+    </label>
+    <label class="input_label">US:
+      <input type="checkbox" name="us" value="US"/>
+    </label>
+    <label class="input_label">San Marino:
+      <input type="checkbox" name="san_marino" value="San_Marino"/>
+    </label>
+
+    <h2>Select Car:</h2>
+    <label class="input_label">BMW:
+      <input type="radio" name="car" value="BMW" checked/>
+    </label>
+    <label class="input_label">Jaguar:
+      <input type="radio" name="car" value="Jaguar"/>
+    </label>
+
+    <h2>When?</h2>
+    <label class="input_label">Date:
+      <input class="input_box" type="date" name="when"/>
+    </label>
+
+    <h2>Start engine.</h2>
+    <label class="input_label">Enter password*:</label>
+    <input class="input_box" type="password" name="user_password"/><br>
+    <br>
+    <input type="submit" value="RUN YOUR CAR"/>
+  </form>
+</body>
+</html>

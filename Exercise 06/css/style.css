@@ -1,0 +1,22 @@
+body  {
+  background-color: blue;
+}
+
+#p1 {
+  color: #75ff6e;
+}
+
+#p2 {
+  color: violet;
+}
+
+P {
+  color: brown;
+}
+
+.block {
+  width: 400px;
+  height: 200px;
+  border: 3px solid #d7eb26;
+  margin-bottom: 10px;
+}

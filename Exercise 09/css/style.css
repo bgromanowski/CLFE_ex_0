@@ -1,0 +1,40 @@
+form  {
+  font-family: Georgia, serif;
+}
+
+/*FORMULARZ #1*/
+
+#form1  {
+  margin-bottom: 50px;
+  color: grey;
+  font-size: 30px;
+}
+
+.user_data  {
+  width: 700px;
+  height: 30px;
+  border: 1px solid grey;
+  font-size: 20px;
+}
+
+#message_box  {
+  height: 300px;
+}
+
+#send {
+  width: 200px;
+  text-align: center;
+}
+
+
+/*FORMULARZ #2*/
+
+.input_label{
+  color: grey;
+  font-size: 20px;
+}
+
+.input_box  {
+  width: 200px;
+  height: 25px;
+}
